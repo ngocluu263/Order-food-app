@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp" >
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_alignParentLeft="true"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:contentDescription="@string/imageIcon"/>
+    <LinearLayout
+        android:layout_toRightOf="@+id/ivIcon"
+        android:layout_marginLeft="10px"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px">
+            <TextView
+                android:text="Tên món : "
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#070e0d" />
+            <TextView
+                android:id="@+id/tvName"
+                android:textColor="#0b07b5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="10px">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Giá : "
+                    android:id="@+id/txtPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#070e0d" />
+                <TextView
+                    android:id="@+id/tvPrices"
+                    android:textColor="#ff000b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prices" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                >
+                <TextView
+                    android:text="Số Lượng : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="#070e0d" />
+                <TextView
+                    android:textColor="#ff000b"
+                    android:id="@+id/tvNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

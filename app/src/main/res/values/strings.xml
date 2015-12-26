@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Ứng dụng gọi món</string>
+<string name="order">Order</string>
+<string name="name">Name</string>
+<string name="number">Number</string>
+<string name="prices">Prices</string>
+<string name="imageIcon">Icon Image </string>
+<string name="del_tables">Xóa bàn đã đặt</string>
+<string name="show_tables">Các bàn đã đặt</string>
+</resources>

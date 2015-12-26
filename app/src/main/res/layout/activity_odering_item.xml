@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4f4f4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:text="Bàn số: "
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="18dp"
+        android:textColor="#070e0d" />
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:text="@string/name"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="18dp"
+        android:layout_weight="12.50"
+        android:textColor="#0b07b5" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:text="Tổng tiền: "
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="18dp"
+        android:textColor="#070e0d" />
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:text="@string/number"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="18dp"
+        android:textColor="#ff000b"
+        android:paddingRight="4dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:text="VND"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="18dp"
+        android:textColor="#ff000b"
+        android:paddingRight="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".GridViewActivity">
+    <item android:id="@+id/show_tables" android:title="@string/show_tables"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/del_tables" android:title="@string/del_tables"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
